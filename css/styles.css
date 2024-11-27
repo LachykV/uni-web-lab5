@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Thunky";
+  src: url('../fonts/Thunky DEMO.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D7CECA;
+    color: #331E0E;
+}
+
+h1, h2, h3 {
+    font-family: 'Thunky';
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 50px;
+}
+.text {
+    margin:0px 300px;
+    text-align: center;
+}
+.first{
+    font-family: 'Roboto', sans-serif;
+}
+.second{
+    font-family: 'Edu AU VIC WA NT Pre', sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #331E0E; /* Default icon color */
+    background: #331E0E;
+    border-radius: 100%;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Specific icon colors */
+.icon-container i.fa-carrot {
+    color: #FA7827; /* Carrot icon */
+}
+
+.icon-container i.fa-cake-candles {
+    color: #F8EFDC; /* Cake icon */
+}
+
+.icon-container i.fa-sun {
+    color: #F9F595; /* Sun icon */
+}
+
+.icon-container span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #331E0E;
+}
+
+.icon-container i:hover {
+    color: #6B4C41; /* Hover effect for all icons */
+    transform: scale(1.5);
+}
+
+footer {
+    background-color: #6B4C41;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
